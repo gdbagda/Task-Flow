@@ -13,11 +13,7 @@ TaskFlow allows users to create multiple boards, manage tasks with priorities an
 
 | Login | Dashboard |
 |--------|-----------|
-| ![](screenshots/login.png) | ![](screenshots/dashboard.png) |
-
-| Board View | Mobile View |
-|------------|-------------|
-| ![](screenshots/board.png) | ![](screenshots/mobile.png) |
+| ![](screenshots/LoginPage.png) | ![](screenshots/Dashboard.png) |
 
 ---
 
