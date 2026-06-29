@@ -1,0 +1,143 @@
+.auth-layout{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  min-height:100vh;
+  background:#0f172a;
+}
+
+.auth-panel-left{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:60px;
+  background:linear-gradient(135deg,#4f46e5,#7c3aed);
+  color:white;
+}
+
+.auth-panel-left-content{
+  max-width:450px;
+}
+
+.auth-brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:40px;
+}
+
+.auth-brand-icon{
+  width:44px;
+  height:44px;
+  border-radius:12px;
+  background:rgba(255,255,255,.2);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.auth-brand-name{
+  font-size:28px;
+  font-weight:700;
+}
+
+.auth-panel-title{
+  font-size:42px;
+  font-weight:700;
+  margin-bottom:20px;
+}
+
+.auth-panel-subtitle{
+  line-height:1.7;
+  opacity:.9;
+  margin-bottom:40px;
+}
+
+.auth-feature-item{
+  display:flex;
+  gap:12px;
+  margin-bottom:16px;
+}
+
+.auth-feature-dot{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:white;
+  margin-top:8px;
+}
+
+.auth-panel-right{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px;
+}
+
+.auth-form-container{
+  width:100%;
+  max-width:430px;
+}
+
+.auth-form-title{
+  font-size:38px;
+  margin-bottom:10px;
+}
+
+.auth-form-subtitle{
+  color:#94a3b8;
+  margin-bottom:30px;
+}
+
+.btn-auth{
+  width:100%;
+  margin-top:20px;
+  padding:16px;
+  border:none;
+  border-radius:12px;
+  background:#6366f1;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.btn-auth:hover{
+  background:#5558ee;
+}
+
+.btn-spinner{
+  width:18px;
+  height:18px;
+  border:2px solid rgba(255,255,255,.3);
+  border-top-color:white;
+  border-radius:50%;
+  display:inline-block;
+  animation:spin .8s linear infinite;
+}
+
+.auth-form-footer{
+  margin-top:24px;
+  text-align:center;
+}
+
+.auth-form-footer a{
+  color:#6366f1;
+  text-decoration:none;
+}
+
+@keyframes spin{
+  to{
+    transform:rotate(360deg);
+  }
+}
+
+@media(max-width:900px){
+
+.auth-layout{
+grid-template-columns:1fr;
+}
+
+.auth-panel-left{
+display:none;
+}
+
+}
